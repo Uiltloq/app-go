@@ -7,3 +7,7 @@ import (
 func MessageDisplay(message string) {
 	fmt.Println(message)
 }
+
+func Multiple(x, y int) int {
+	return x * y
+}
